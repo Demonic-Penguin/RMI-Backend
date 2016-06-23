@@ -321,3 +321,23 @@ html[xmlns] #nav {
 * html #nav {
 	height: 1%;
 }
+
+#joblist {
+  list-style: none;
+  text-align: center;
+  margin: 1em 0;
+  padding: 0; 
+}
+ 
+#joblist li {
+  font-weight: bold;
+  margin: 0;
+  padding: 3px 10px 5px 20px;
+  border-bottom: 1px solid #ccc;
+  color: #666; 
+}
+ 
+#joblist li a:hover {
+  color: #000;
+  background-color: #ddd;
+}
