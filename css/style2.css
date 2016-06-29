@@ -8,13 +8,13 @@ html {
 }
 body {
 	font: normal .8em/1.5em Arial, Helvetica, sans-serif;
-	background: #ebebeb;
 	width: 100%;
+	background-size: cover;
 	margin: auto;
 	color: #666;
-	display: table-cell;
     vertical-align: middle;
     text-align: center;
+    height: auto;
 	}
 a {
 	color: #333;
@@ -180,7 +180,7 @@ ul.tab li a:focus, .active {background-color: #ccc;}
     to {opacity: 1;}
 }
 #nav {
-	margin: 0;
+	margin: 100px 0px 0px 0px;
 	padding: 7px 6px 0;
 	line-height: 100%;
 	border-radius: 2em;
